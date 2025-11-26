@@ -245,7 +245,7 @@ print(model.score(X, Y))
 
 # 二乗平均平方誤差(RMSE)
 from sklearn.metrics import mean_squared_error
-rmse = mean_squared_error(y_test_s, y_pred, squared=True)
+rmse = mean_squared_error(y_test_s, y_pred)
 print(f"RMSE: {round(rmse, 3)}")
 ```
 
