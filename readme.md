@@ -59,8 +59,8 @@ from lightgbm import LGBMRegressor
 
 ### 用語
 
-* **目的変数（target / y）**: 今回はダイヤモンド価格 `price`。
-* **説明変数（features / X）**: 今回は`carat`, `depth`, `table`, `x`, `y`, `z`, `cut`, `color`, `clarity` など、価格を説明するために使う情報。
+* **目的変数（target / y）**: 予測したいデータ。今回はダイヤモンド価格 `price`。
+* **説明変数（features / X）**: 今回は`carat`, `depth`, `table`, `x`, `y`, `z`, `cut`, `color`, `clarity` など、目的変数に設定したデータの予測に使う情報。
 * **回帰問題（regression）**: 連続値（ここでは価格）を予測するタスク。
 * **分類問題（classification）**: 離散的カテゴリ（例: cut グレード、高価格/低価格フラグ）を予測するタスク。
 
